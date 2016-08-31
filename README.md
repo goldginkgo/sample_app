@@ -1,15 +1,32 @@
-# Ruby on Rails Tutorial sample application
+# Ruby on Rails sample application
 
-This is the sample application for
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](http://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/).
+This is the sample application for Rails 5.0.0.
 
-## License
+Functions of the application:
+- Static pages
+- Sign up/Log in
+- Authorization
+- Microposts
+- Following User
 
-All source code in the [Ruby on Rails Tutorial](http://railstutorial.org/)
-is available jointly under the MIT License and the Beerware License. See
-[LICENSE.md](LICENSE.md) for details.
+Technologies:
+
+- Use cloud9 to develop the application, deployed to heroku
+- TDD/MVC/REST
+- Active Record/Action Mailer/Migration/ApplicationController
+- Scaffold/ERb/validations/before filter/strong parameters/asset pipeline
+- integration test/fixtures
+- HTML5/CSS/Bootstrap/JavaScript
+- Security/SSL
+- Puma
+- flash/cookies/session
+- database index
+- Pagination
+- Use Gravatars to display images
+- Use Faker to seed the database
+- minitest-reporters/automated tests with Guard
+- Send email in production using SendGrid
+- Store images to Amazon.com's Simple Storage Service (S3)
 
 ## Getting started
 
@@ -37,5 +54,10 @@ If the test suite passes, you'll be ready to run the app in a local server:
 $ rails server
 ```
 
-For more information, see the
-[*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
+On Cloud9, this command should be
+
+```
+$ rails server -b $IP -p $PORT
+```
+
+instead.
